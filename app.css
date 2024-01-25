@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Code Pro";
+}
+.menu{
+    margin: 0 auto;
+}
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 55px;
+}
+.underline{
+    width: 5vw;
+    height: 1px;
+    border: 2px solid goldenrod;
+}
+.filter-button{
+    margin: 1.5vw 0vw;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+button{
+    padding: 0.2vw .5vw;
+    border: 2px solid goldenrod;
+    background: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 2px -2px 2px rgb(110, 109, 109);
+}
+button:active{
+    box-shadow: 0px 0px 2px rgb(110, 109, 109);
+
+}
+.hero{
+    margin: 3vw 0vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3vw;
+}
+.menu-item{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.item-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1.5px solid rgb(9, 106, 176) ;
+}
+.imag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 12vw;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+}
+img{
+    width: 10vw;
+    object-fit: cover;
+    margin: 1vw 0.5vw;
+    filter: drop-shadow(2px 12px 2px gray);
+}
+p{  
+    margin-top: 1.5vw;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(82, 80, 80);
+}
+
+@media (max-width:698px){
+
+    h1{
+        font-size: 35px;
+    }
+    .underline{
+        width: 10vh;
+    }
+    .menu-item{
+        width: 90%;
+        flex-direction: column;
+        gap: 5vw;
+        margin: 2vh auto;
+    }
+    .imag{
+        width: 90%;
+        height: 40vh;
+    }
+    img{
+        width: 85%;
+        margin: 5vw 0vw;
+        filter: drop-shadow(2px 8px 2px gray);
+    }
+    p{  
+        margin-top: 2vh;
+    }
+    .filter-button{
+        margin-top: 3vh;
+        justify-content: space-evenly;
+    }
+    button{
+        font-size: 3vw;
+        padding: 0.2vw 0.9vw;
+    }
+}
