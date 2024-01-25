@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Source Code Pro";
+    font-family: "Nunito";
 }
 .menu{
     margin: 0 auto;
@@ -80,7 +80,7 @@ img{
 }
 p{  
     margin-top: 1.5vw;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
     color: rgb(82, 80, 80);
 }
